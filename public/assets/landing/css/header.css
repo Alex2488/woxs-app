@@ -1,0 +1,52 @@
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 115px;
+  border-radius: 0 0 40px 40px;
+  background-color: #f8f8f8;
+  border: solid #ebebeb;
+  border-width: 0 2px 2px 2px;
+}
+.header .nav .logo .logo_img img {
+  padding-left: 68px;
+  height: 71px;
+}
+.header .nav .menu {
+  display: flex;
+  align-items: center;
+  margin-right: 18px;
+  list-style: none;
+  gap: 38px;
+  font-size: 14px;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 2px;
+}
+.header .nav .menu .menu_item a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+}
+.header .nav .menu .menu_item a:hover {
+  color: red;
+  transition: color 0.3s ease-in-out;
+}
+.header .nav .contact {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  letter-spacing: 1px;
+  margin-right: 100px;
+}
+.header .nav .contact .tel {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: bolder;
+}
+.header .nav .contact .call button {
+  padding: 15px 25px;
+}
+
+/*# sourceMappingURL=header.css.map */

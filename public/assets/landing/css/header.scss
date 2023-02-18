@@ -1,0 +1,75 @@
+.header {
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 115px;
+        border-radius: 0 0 40px 40px;
+        background-color: #f8f8f8;
+        border: solid #ebebeb;
+        border-width: 0 2px 2px 2px;
+
+        .logo {
+            .logo_img {
+                img {
+                    padding-left: 68px;
+                    height: 71px;
+                }
+            }
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            margin-right: 18px;
+            list-style: none;
+            gap: 38px;
+            font-size: 14px;
+            font-family: "Proxima Nova", sans-serif;
+            font-weight: normal;
+            text-transform: uppercase;
+            transition: 0.5s;
+            letter-spacing: 2px;
+
+
+            .menu_item {
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-weight: 900;
+
+                    &:hover {
+                        color: red;
+                        transition: color 0.3s ease-in-out;
+                    }
+                }
+            }
+        }
+
+        .contact {
+            display: flex;
+            align-items: center;
+            gap: 45px;
+            letter-spacing: 1px;
+            margin-right: 100px;
+
+            .tel {
+                font-family: "Proxima Nova", sans-serif;
+                font-weight: bolder;
+            }
+
+            .call {
+                button {
+                    padding: 15px 25px;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
