@@ -9,6 +9,7 @@
       crossorigin="anonymous" referrerpolicy="no-referrer"/>
 <link rel="stylesheet" href="{{url('/')}}/assets/landing/css/index.css">
 <link rel="stylesheet" href="{{url('/')}}/assets/landing/css/header.css">
+<link rel="stylesheet" href="{{url('/')}}/assets/landing/css/footer.css">
 
 
 <!-- ==============================================

@@ -9,7 +9,8 @@
 <body>
 <main>
     @include('landing.includes.header')
-    <h1>Services</h1>
+    <h1 style="height: 50vh">Services</h1>
+    @include('landing.includes.footer')
 </main>
 </body>
 </html>
